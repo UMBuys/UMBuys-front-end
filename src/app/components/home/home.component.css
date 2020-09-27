@@ -198,7 +198,18 @@
   transition-duration: 0.4s;
 }
 .cg-item button:hover {
-  background-color: #f39c12;
-  color: #ffffff;
+  background-color: #f1f2f6;
+  color: #000000;
+}
+
+.cg-item button:focus {
+  outline:none !important;
 }
 /* end */
+
+
+/* slide bar search */
+.sb-search {
+  padding: 10px;
+  /* padding-top: 20px; */
+}

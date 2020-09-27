@@ -16,6 +16,7 @@ import { LocationComponent } from 'src/app/components/home/location/location.com
 import { GalleryComponent } from 'src/app/components/home/gallery/gallery.component';
 import { CategoryComponent } from 'src/app/components/home/category/category.component';
 import { DetailComponent } from './components/detail/detail.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { DetailComponent } from './components/detail/detail.component';
   ],
   imports: [
     AppRoutingModule,
-    BrowserModule
+    BrowserModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -10,9 +10,49 @@
     display: none;
   }
 
+  #lgsdi-burger {
+    display: block;
+  }
   @media (min-width: 771px){
     #lgasi {
       display: block;
     }
+    #lgsdi-burger {
+      display: none;
+    }
+    .lgasi-burger-icon{
+      display: none;
+    }
+    #lgasiExternalContent{
+      display: none;
+    }
+  }
+
+  .btn-nav:hover {
+    background-color: #5352ed !important; /* Green */
+  }
+
+  .nav-icon:hover {
+    color: #f39c12 !important;
   }
   /* end */
+
+  .lgasi-burger-icon{
+    width: 35px;
+    height: 5px;
+    /* background-color: black; */
+    margin: 4px 0;
+  }
+
+  .lgasi-burger-btn {
+    background-color: #ffffff;
+    border-style: none;
+    text-align: right;
+    padding: 0px;
+  }
+  .lgasi-burger-btn:focus {
+    outline:none;
+  }
+  .lgasi-burger-btn:hover .lgasi-burger-icon{
+    background-color: #f39c12 !important;
+  }

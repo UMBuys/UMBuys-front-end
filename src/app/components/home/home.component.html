@@ -6,47 +6,34 @@
  <!-- edit by Yiwei Yao 9/13/2020-->
 <div class="container hp">
     <div class="sb">
-        <div class="bc bc-container bg-color shadow-sm">Search Hold</div>
+        <div class="bc bc-container bg-color shadow-sm sb-search">
+            <form>
+                <label style="display: block; text-align: left;" for="sb-search-field"><strong>Search</strong></label>
+                <input id="sb-search-field" type="text" aria-label="search" class="sb-search-field" value>
+                <button>search</button>
+            </form>
+            <div class="d-block text-center">
+                <small>Address: </small>
+                <!-- <button type="button" class="btn btn-link text-success" data-toggle="modal" data-target="#changeLocation"><small>Quincy, MA, 02171</small></button> -->
+                <small>Quincy, MA, 02171</small>
+            </div>
+        </div>
         <div class="cg cg-container bg-color shadow-sm">
             <div class="cg-title"><strong>Categories</strong></div>
             <hr>
             <div class="cg-item">
-                <button><svg class="bi" width="20" height="20">
-                    <use xlink:href="assets/bootstrap-icons.svg#chat-dots-fill"/>
-                    </svg>Vehicles</button>
-                <button><svg class="bi" width="20" height="20">
-                    <use xlink:href="assets/bootstrap-icons.svg#chat-dots-fill"/>
-                    </svg>Rentals</button>
-                <button><svg class="bi" width="20" height="20">
-                    <use xlink:href="assets/bootstrap-icons.svg#chat-dots-fill"/>
-                    </svg>Apparel</button>
-                <button><svg class="bi" width="20" height="20">
-                    <use xlink:href="assets/bootstrap-icons.svg#chat-dots-fill"/>
-                    </svg>Electronics</button>
-                <button><svg class="bi" width="20" height="20">
-                    <use xlink:href="assets/bootstrap-icons.svg#chat-dots-fill"/>
-                    </svg>Entertainment</button>
-                <button><svg class="bi" width="20" height="20">
-                    <use xlink:href="assets/bootstrap-icons.svg#chat-dots-fill"/>
-                    </svg>Free</button>
-                <button><svg class="bi" width="20" height="20">
-                    <use xlink:href="assets/bootstrap-icons.svg#chat-dots-fill"/>
-                    </svg>Outdoor</button>
-                <button><svg class="bi" width="20" height="20">
-                    <use xlink:href="assets/bootstrap-icons.svg#chat-dots-fill"/>
-                    </svg>Home Goods</button>
-                <button><svg class="bi" width="20" height="20">
-                    <use xlink:href="assets/bootstrap-icons.svg#chat-dots-fill"/>
-                    </svg>Home Sales</button>
-                <button><svg class="bi" width="20" height="20">
-                    <use xlink:href="assets/bootstrap-icons.svg#chat-dots-fill"/>
-                    </svg>Office Supplies</button>
-                <button><svg class="bi" width="20" height="20">
-                    <use xlink:href="assets/bootstrap-icons.svg#chat-dots-fill"/>
-                    </svg>Pet Supplies</button>
-                <button><svg class="bi" width="20" height="20">
-                    <use xlink:href="assets/bootstrap-icons.svg#chat-dots-fill"/>
-                    </svg>Toys & Games</button>
+                <button><fa-icon [icon]="vehicles"></fa-icon>Vehicles</button>
+                <button><fa-icon [icon]="rentals"></fa-icon>Rentals</button>
+                <button><fa-icon [icon]="apparel"></fa-icon>Apparel</button>
+                <button><fa-icon [icon]="electronics"></fa-icon>Electronics</button>
+                <button><fa-icon [icon]="entertainment"></fa-icon>Entertainment</button>
+                <button><fa-icon [icon]="free"></fa-icon>Free</button>
+                <button><fa-icon [icon]="outdoor"></fa-icon>Outdoor</button>
+                <button><fa-icon [icon]="home_goods"></fa-icon>Home Goods</button>
+                <button><fa-icon [icon]="home_sale"></fa-icon>Home Sales</button>
+                <button><fa-icon [icon]="office_suppliy"></fa-icon>Office Supplies</button>
+                <button><fa-icon [icon]="pet_suppliy"></fa-icon>Pet Supplies</button>
+                <button><fa-icon [icon]="toys_games"></fa-icon>Toys & Games</button>
             </div>
         </div>
     </div>

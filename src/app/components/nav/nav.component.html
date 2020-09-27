@@ -9,7 +9,7 @@
  <!-- below is nav bar code  -->
  <nav class="bg-white sticky-top shadow-sm">
    <div class="container">
-     <div class="row justify-content-between">
+     <div class="row justify-content-between" style ="height: 62.8px;">
          <div class="col-4 mt-3 mb-3" >
              <span role="button" routerLink="/home"><img src="../../../assets/UMBuys .png" alt="Logo"></span>
          </div>
@@ -30,19 +30,42 @@
 
         <div class="col-4 mt-3 mb-3">
             <div id = "lgasi" class="float-right">
-            <a id="lang" href="/">
-                <svg class="bi text-primary" width="20" height="20">
-                    <use xlink:href="assets/bootstrap-icons.svg#globe"/>
-                </svg>
-            </a>
-            <a id="chat" href="/" class="ml-2"><svg class="bi text-primary" width="20" height="20">
-            <use xlink:href="assets/bootstrap-icons.svg#chat-dots-fill"/>
-            </svg></a>
-            <button class="btn btn-sm btn-outline-primary ml-2" type="button" data-toggle="modal" data-target="#login">Login</button>
-            <button class="btn btn-sm btn-primary ml-2" type="button" data-toggle="modal" data-target="#join" >Join</button>
-        </div>
+              <a id="lang" href="/">
+                  <svg class="bi cl-primary-color nav-icon" width="20" height="20">
+                      <use xlink:href="assets/bootstrap-icons.svg#globe"/>
+                  </svg>
+              </a>
+              <a id="chat" href="/" class="ml-2"><svg class="bi cl-primary-color nav-icon" width="20" height="20">
+              <use xlink:href="assets/bootstrap-icons.svg#chat-dots-fill"/>
+              </svg></a>
+              <button class="btn btn-sm btn-nav ml-2 primary-color upon-primary-color" type="button" data-toggle="modal" data-target="#login">Login</button>
+              <button class="btn btn-sm btn-nav ml-2 primary-color upon-primary-color" type="button" data-toggle="modal" data-target="#join" >Join</button>
+            </div>
+            <div id="lgasi-burger" class="float-right">
+              <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation"> -->
+                <button class=" navbar-toggler lgasi-burger-btn" data-toggle="collapse" data-target="#lgasiExternalContent"
+                aria-controls="lgasiToggleExternalContent"
+                aria-expanded="false"
+                aria-label="lgasi External navigation"
+                >
+                    <div class="lgasi-burger-icon primary-color"></div>
+                    <div class="lgasi-burger-icon primary-color"></div>
+                    <div class="lgasi-burger-icon primary-color"></div>
+                </button>
+                
+              <!-- </button> -->
+            </div>
         </div>
      </div>
+     <!-- <div class="fixed-top"> -->
+      <div class="collapse" id="lgasiExternalContent">
+          <a class="cl-primary-color" data-toggle="modal" data-target="#login"><strong style="display: block;text-align: right;">Login</strong></a>
+          <a class="cl-primary-color" data-toggle="modal" data-target="#join"><strong style="display: block;text-align: right;">Register</strong></a>
+          <a href="" class="cl-primary-color"><strong style="display: block;text-align: right;">Contact Us</strong></a>
+          <a href="" class="cl-primary-color"><strong style="display: block;text-align: right;">Language</strong></a>
+          <br>
+        </div>
+      <!-- </div> -->
     </div>
 </nav>
 <!-- end for nav bar-->

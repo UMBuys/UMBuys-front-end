@@ -65,8 +65,13 @@ body {
   background-color: #f1f2f6 !important;
 }
 .primary-color {
-  color: #3742fa;
+  background-color: #3742fa !important;
 }
+
+.cl-primary-color {
+  color: #3742fa !important;
+}
+
 .primary-color-var{
   color:#5352ed;
 }
@@ -83,7 +88,7 @@ body {
   color: #d63031;
 }
 .upon-primary-color {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 .upon-secondry-color {
   color: #ffffff;
