@@ -6,10 +6,13 @@
 
 /* responsive layout editor: Yiwei Yao 9/13/2020*/
 /* start */
+<<<<<<< HEAD
 
 fa-icon{
   margin-right: 5px;
 }
+=======
+>>>>>>> ddbc53057eaef2f5f9c9ac21e7f313dbaed3e42f
 @media (min-width: 250px) {
   .hp{
     display: grid;
@@ -162,6 +165,7 @@ fa-icon{
 /* end */
 
 /* slide bar card css added by Yiwei Yao*/
+<<<<<<< HEAD
 /* added address filter container by NJ*/
 /* start */
 .sb {
@@ -178,6 +182,15 @@ fa-icon{
   position: fixed;
   width: 320px;
   top: 159.6px;
+=======
+/* start */
+.sb {
+}
+.bc-container {
+  position: fixed;
+  width: 320px;
+  top: 72.6px;
+>>>>>>> ddbc53057eaef2f5f9c9ac21e7f313dbaed3e42f
 }
 .bc {
   height: 100px;
@@ -186,7 +199,11 @@ fa-icon{
 .cg-container{
   position: fixed;
   width: 320px;
+<<<<<<< HEAD
   top: 268.6px;
+=======
+  top: 182.6px;
+>>>>>>> ddbc53057eaef2f5f9c9ac21e7f313dbaed3e42f
 }
 .cg {
   display: flex;
@@ -209,7 +226,10 @@ fa-icon{
   text-align: left;
   border-radius: 4px;
   transition-duration: 0.4s;
+<<<<<<< HEAD
   margin-left: 0.4px;
+=======
+>>>>>>> ddbc53057eaef2f5f9c9ac21e7f313dbaed3e42f
 }
 .cg-item button:hover {
   background-color: #f1f2f6;
@@ -226,4 +246,8 @@ fa-icon{
 .sb-search {
   padding: 10px;
   /* padding-top: 20px; */
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> ddbc53057eaef2f5f9c9ac21e7f313dbaed3e42f
