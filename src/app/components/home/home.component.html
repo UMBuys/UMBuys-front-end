@@ -9,19 +9,26 @@
         <div class="bc bc-container bg-color shadow-sm sb-search">
             <form>
                 <label style="display: block; text-align: left;" for="sb-search-field"><strong>Search</strong></label>
-                <input id="sb-search-field" type="text" aria-label="search" class="sb-search-field" value>
-                <button>search</button>
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Search UMBuys" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+                  </div>
+                </div>
             </form>
-            <div class="d-block text-center">
-                <small>Address: </small>
-                <!-- <button type="button" class="btn btn-link text-success" data-toggle="modal" data-target="#changeLocation"><small>Quincy, MA, 02171</small></button> -->
-                <small>Quincy, MA, 02171</small>
-            </div>
         </div>
+       <div class="address-filter address-filter-container bg-color shadow-sm sb-search">
+        <form>
+            <label style="display: block; text-align: left;" for="sb-search-field"><strong>Address</strong></label>
+            <div class="input-group mb-3">
+               <!-- <button type="button" class="btn btn-link text-success" data-toggle="modal" data-target="#changeLocation"><small>Quincy, MA, 02171</small></button> -->
+              <small><a class="link">Quincy, MA, 02171</a></small>
+            </div>
+        </form>
+    </div>
         <div class="cg cg-container bg-color shadow-sm">
             <div class="cg-title"><strong>Categories</strong></div>
-            <hr>
-            <div class="cg-item">
+            <div class="cg-item list-group-item list-group-item-action">
                 <button><fa-icon [icon]="vehicles"></fa-icon>Vehicles</button>
                 <button><fa-icon [icon]="rentals"></fa-icon>Rentals</button>
                 <button><fa-icon [icon]="apparel"></fa-icon>Apparel</button>
